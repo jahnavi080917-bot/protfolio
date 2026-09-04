@@ -10,8 +10,8 @@ body {
     margin: 0;
     padding-top: 70px;
     font-family: Arial, sans-serif;
-    background-color: #F8FAFC;
-    color: #1E293B;
+    background-color: #F7FAF8;
+    color: #24332C;
 }
 
 nav {
@@ -27,7 +27,7 @@ nav {
 
     padding: 0 8%;
 
-    background-color: #0F172A;
+    background-color: #163A2D;
 
     z-index: 1000;
 }
@@ -40,14 +40,14 @@ nav {
 }
 
 .nav-links {
-    background-color:transparent;
+    background-color: transparent;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
 .nav-links a {
-    background-color: black;
+    background-color: #214D3B;
     color: white;
     text-decoration: none;
 
@@ -59,7 +59,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: #2563EB;
+    background-color: #2E7D5B;
 }
 
 section {
@@ -67,7 +67,7 @@ section {
     margin: 40px auto;
     padding: 50px;
 
-    background-color: white;
+    background-color: #FFFFFF;
 
     border-radius: 10px;
 }
@@ -89,7 +89,7 @@ h3 {
 p {
     font-size: 18px;
     line-height: 1.7;
-    color: #64748B;
+    color: #66756D;
 }
 
 #home {
@@ -103,7 +103,7 @@ p {
     display: flex;
     align-items: center;
 
-    background-color: #F8FAFC;
+    background-color: #F7FAF8;
 }
 
 .profile {
@@ -122,18 +122,17 @@ p {
 .profile-text {
     flex: 1;
     max-width: 650px;
-
 }
 
 .profile-text h1 {
     font-size: 48px;
     margin-bottom: 15px;
-    color:#0F172A;
+    color: #163A2D;
 }
 
 .profile-text h2 {
     font-size: 30px;
-    color: #2563EB;
+    color: #2E7D5B;
     margin-bottom: 25px;
 }
 
@@ -150,7 +149,7 @@ p {
 
     padding: 12px 25px;
 
-    background-color: #2563EB;
+    background-color: #2E7D5B;
     color: white;
 
     text-decoration: none;
@@ -161,7 +160,7 @@ p {
 }
 
 #home a:hover {
-    background-color: #1D4ED8;
+    background-color: #245F46;
     transform: translateY(-2px);
 }
 
@@ -181,14 +180,15 @@ p {
 
     border-radius: 50%;
 
-    border: 6px solid #2563EB;
+    border: 6px solid #2E7D5B;
 
     display: block;
 }
 
 article {
-    background-color: #ffffff;
-    border:1px solid #E2E8F0;
+    background-color: #FFFFFF;
+    border: 1px solid #DCE8E2;
+
     padding: 25px;
 
     margin-bottom: 20px;
@@ -201,7 +201,7 @@ article {
 article:hover {
     transform: translateY(-3px);
 
-    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.15);
+    box-shadow: 0 5px 15px rgba(22, 58, 45, 0.15);
 }
 
 article a {
@@ -209,7 +209,7 @@ article a {
 
     padding: 8px 15px;
 
-    background-color: #222;
+    background-color: #163A2D;
 
     color: white;
 
@@ -219,7 +219,7 @@ article a {
 }
 
 article a:hover {
-    background-color: purple;
+    background-color: #2E7D5B;
 }
 
 #skills ul {
@@ -235,9 +235,9 @@ article a:hover {
 }
 
 #skills li {
-    background-color: #EFF6FF;
+    background-color: #E8F3EE;
 
-    color: #2563EB;
+    color: #245F46;
 
     padding: 10px 18px;
 
@@ -251,9 +251,9 @@ article a:hover {
 
     padding: 15px;
 
-    background-color: yellow;
+    background-color: #DDEFE6;
 
-    color: red;
+    color: #245F46;
 
     text-align: center;
 
@@ -261,11 +261,11 @@ article a:hover {
 }
 
 #contact a {
-    color: #0077cc;
+    color: #2E7D5B;
 }
 
 #contact a:hover {
-    color: purple;
+    color: #163A2D;
 }
 
 footer {
@@ -273,7 +273,7 @@ footer {
 
     text-align: center;
 
-    background-color: #0F172A;
+    background-color: #163A2D;
 
     color: white;
 }
@@ -398,13 +398,14 @@ footer p {
     }
 }
 
-#typing-title::after{
+#typing-title::after {
     content: "|";
     margin-left: 5px;
     animation: blink 0.8s step-end infinite;
 }
-@keyframes blink{
-    50%{
+
+@keyframes blink {
+    50% {
         opacity: 0;
     }
-  }
+}
