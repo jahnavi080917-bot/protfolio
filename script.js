@@ -1,5 +1,11 @@
 const typingTitle = document.getElementById("typing-title");
-const roles = ['Gen AI Engineer', 'AI Application Builder','Full Stack Developer', 'EdTech Instructor','Entrepreneur'];
+const roles = [
+    'Computer Science Student',
+    'Aspiring Software Developer',
+    'Programming Learner',
+    'Web Development Learner',
+    'Tech Enthusiast'
+];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
